@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: mb-demo-app
+  description: demo-app-mb
+  annotations:
+    github.com/project-slug: leemills83/mb-demo
+    backstage.io/techdocs-ref: github:https://github.com/leemills83/mb-demo
+spec:
+  type: website
+  lifecycle: experimental
+  owner: leem@spotify.com
